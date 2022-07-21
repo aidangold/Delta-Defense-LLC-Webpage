@@ -1,4 +1,6 @@
-html, body {
+/* A mix of rem, px, % are used for sizing of elements for this webpage. This is your warning. */
+
+html, body { /* scale the size for the backgrounds to fully extend */
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -15,7 +17,7 @@ html, body {
     z-index: 2; /* top layer so the list will scroll under it */
 }
 
-#Delta-logo {
+#Delta-logo { /* Delta Defense' logo area */
     margin-right: 10%;
     float: right;
     margin-top: 10px;
@@ -28,7 +30,7 @@ html, body {
     margin-left: 14%;
 }
 
-#Spacer {
+#Spacer { /* phone number and the pretty white space we added to the page */
     margin-top: 71px;
     text-align: right;
     margin-right: 100px;
@@ -38,7 +40,7 @@ html, body {
     background-size: cover;
 }
 
-#Header {
+#Header { /* page title essentially. This is also where I would put additional photos */
     padding: 20px;
     border-color: black;
     background-color: black;
@@ -89,8 +91,5 @@ html, body {
     background-color: #ff6a00;
     position: absolute;
     left: -1.5rem;
-    top: -0.3rem;
+    top: -0.3rem; /* moved the line to the top of the list block */
 }
-
-
-
