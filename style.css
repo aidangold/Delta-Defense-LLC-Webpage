@@ -59,11 +59,18 @@ html, body {
     font: 1em sans-serif;
 }
 
+@media screen and (max-width: 400px) { /* this will hide the dotted lines when viewing from a small screen like mobile */
+    listlines {
+        border-left: none;
+    }
+}
+
 .listlines { /* the dotted lines we have connecting the items of our list */
     list-style: none;
     border-left: 4px dotted #ff6a00;
-    margin-left: 39%;
+    margin-left: 29%;
     padding-left: 1.5rem;
+    height: 48.7rem;
 }
 
 .listlines li {
@@ -71,7 +78,6 @@ html, body {
     margin: 1.5rem 0; 
     padding-left: 1rem;
     position: relative;
-    top: 0;
     z-index: 1;
 }
 
